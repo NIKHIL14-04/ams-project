@@ -2,9 +2,9 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-import app from "./src/app.js";
+import app from "./SRC/app.js";
 
-import connectDB from "./src/config/db.js";
+import connectDB from "./SRC/config/db.js";
 
 connectDB();
 
